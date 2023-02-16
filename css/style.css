@@ -1,0 +1,228 @@
+body {
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  display: inline-block;
+}
+.col-bar {
+  background-color: blue;
+  color: aliceblue;
+  height: 30px;
+  line-height: 30px;
+}
+.col-bar p {
+  text-align: center;
+}
+.col-bar .dc:hover {
+  color: red;
+  transform: scale(1.1);
+}
+.col-bar .mail:hover {
+  color: rgb(0, 255, 34);
+  transform: scale(1.1);
+}
+#header-top {
+  background-color: azure;
+}
+#header-top img {
+  width: 150px;
+  height: 70px;
+}
+#header-top nav {
+  background-color: orange;
+  height: 30px;
+  line-height: 19px;
+  color: white;
+  text-align: center;
+}
+.logo {
+  left: 10%;
+}
+.navigation {
+  background-color: #f4f7f3;
+  padding: 0 10px 30px;
+  width: 20%;
+}
+header {
+  position: relative;
+}
+
+/* .search input {
+  width: 30%;
+  background-color: #f2f4f7;
+  height: 30px;
+  margin-top: 20px;
+  text-indent: 15px;
+  padding-right: 40px ;
+}
+.search button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40px; 
+} */
+.input-with-button {
+  position: absolute;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  top: 14%;
+  left: 35%;
+}
+
+.input-with-button input {
+  border: none;
+  padding-right: 40px; /* để tạo chỗ cho button */
+  height: 30px;
+  width: 360px;
+}
+
+.input-with-button button {
+  border: none;
+  background-color: orange;
+  color: rgb(247, 245, 242);
+  position: absolute;
+  top: 0;
+  right: 0%;
+  height: 100%;
+  width: 40px; /* chiều rộng của button */
+}
+.input-with-button button:hover {
+  box-shadow: 0 0 15px rgb(19, 140, 221);
+  color: pink;
+  transform: scale(1.1);
+}
+.menu {
+  /* margin-top: 15px; */
+  border-top: 1px solid #fff;
+  padding-top: 10px;
+}
+.menu a {
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: rgba(245, 44, 44, 0.904);
+  transform: scale(1.5);
+}
+
+ul.navbar-menu li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+ul.navbar-menu li a {
+  color: #bbbbbb;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+ul.navbar-menu li a:hover {
+  color: #07a044;
+}
+
+ul.navbar-menu li a.active {
+  color: #07a044;
+}
+
+/* footer */
+.footer-col {
+  background-color: rgba(223, 145, 0, 0.884);
+  height: 57px;
+}
+.footer-tt p {
+  font-size: 20px;
+  color: aliceblue;
+  position: absolute;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  bottom: 31.5%;
+  left: 10%;
+}
+.footer-tt .input-mail {
+  position: absolute;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  bottom: 34%;
+  left: 30%;
+}
+.input-mail button {
+  border: none;
+  background-color: black;
+  color: rgb(247, 245, 242);
+  position: absolute;
+  top: 0;
+  right: 0%;
+  height: 100%;
+  width: 40px;
+}
+.input-mail input {
+  border: none;
+  padding-right: 40px; /* để tạo chỗ cho button */
+  height: 33px;
+  width: 560px;
+}
+.input-mail button:hover {
+  background-color: chocolate;
+  box-shadow: 0 0 15px rgb(19, 140, 221);
+  color: pink;
+  transition: background-color 0.2s linear;
+  transform: scale(1.1);
+}
+.footer-tt ul {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  bottom: 31.5%;
+  right: 5%;
+}
+.footer-icon li,
+.footer-icon a {
+  margin-right: 15px;
+  color: aliceblue;
+}
+.footer-icon li:hover,
+.footer-icon a:hover {
+  color: black;
+}
+.footer-dc {
+  position: absolute;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  bottom: 2%;
+  left: 2.5%;
+  margin: 5px;
+}
+.footer-dc ul {
+  list-style: none;
+}
+.footer-dc .ctho {
+  font-weight: bold;
+}
+.footer-dc h3:hover {
+  color: orange;
+}
+
+.footer-dc .cread {
+  position: absolute;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  top: 100%;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: rgb(160, 159, 159);
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+}
